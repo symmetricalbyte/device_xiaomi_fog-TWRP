@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := omni_fog
+PRODUCT_NAME := twrp_fog
 PRODUCT_DEVICE := fog
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi 10C
