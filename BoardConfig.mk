@@ -158,6 +158,26 @@ TW_EXCLUDE_APEX := true
 TW_FRAMERATE := 60
 TW_FORCE_KEYMASTER_VER := true
 
+# SHRP specific build flags
+SHRP_DEVICE_CODE := fog
+SHRP_PATH := device/xiaomi/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := symmetricalbyte
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A/B
+SHRP_REC := false
+SHRP_AB := true
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /storage/external_sd
+SHRP_OTG := /storage/otg
+SHRP_FLASH := 1
+SHRP_NOTCH := true
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DARK := true
+SHRP_SKIP_DEFAULT_ADDON_1 := true
+SHRP_SKIP_DEFAULT_ADDON_2 := true
+SHRP_EXCLUDE_MAGISK_FLASH := false
+
 # UEFI
 TARGET_USES_UEFI := true
 
